@@ -1,0 +1,101 @@
+
+</body>
+
+<!DOCTYPE html>
+<head>
+<title></title>
+<link href="css/maincss.css" rel="stylesheet">
+
+<meta name="viewport" content="widthdevice-width, initial-scale=1.0">
+</head>
+            <body>
+                <header>
+                           
+                  <img src="img/petico_logo1.png" width="" height="">
+                
+
+                 <span>
+                    <input type="search" placeholder="  What are you looking for ...?"> <input type="submit" value="SEARCH"> <button>FILTER                                      </button>
+                 </span>
+
+               </br>
+                    <div id="main_nav">
+                           <ul>
+                                 <li style="border: none;"><a href="header.php">HOME</a></li>
+                                 <li><a href="register.php">SIGN-UP</a></li>
+                                 <li><a href="">PROFILE</a>
+                                                               <ul id="sub_nav">
+                                                                     <li><a href="">MESSAGES</a></li>
+                                                                     <li><a href="">ADVERT</a></li>
+                                                                     <li><a href="">PASSWORD</a></li>
+                                                                     <li><a href="">LOG OUT</a></li>
+
+
+                                                               </ul>
+                                 </li>
+                                 <li style="margin-left:;"><a href="">CONTACT</a>
+                                                               <ul id="sub_nav">
+                                                                     <li><a href="">FACEBOOK</a></li>
+                                                                     <li><a href="">INSTAGRAM</a></li>
+                                                                     <li><a href="">TWITEER</a></li>
+                                                                     <li><a href="">WHATSAPP</a></li>
+
+                                                               </ul>
+                                 </li>
+
+                           </ul>                                      
+                    </div>    
+          </header>
+
+                    <div id="register_box">
+                                            <p>REGISTER HERE</p>
+                                         <form action="inc/register.inc.php" method="post">
+                                                    <label id="surnname">
+                                                                    Surn Name
+                                                    </label>
+                                                    <input type="text" name="surnname" id="surnname" placeholder="Enter your Surnname" value="">
+                                                    </br>
+
+                                                    <label id="firstname">
+                                                                    First Name
+                                                    </label>
+                                                    <input type="text" name="first_name" id="firstname" placeholder="Enter your First Name" value="">
+                                                    </br>
+
+                                                    <label id="username">
+                                                                    Username
+                                                    </label>
+                                                    <input type="text" name="username" id="username" placeholder="Enter your Username" value="">
+                                                    </br>
+
+                                                    <label id="email">
+                                                                    Email
+                                                    </label>
+                                                    <input type="email" name="email" id="email" placeholder="Enter your Email" value="">
+                                                    </br>
+
+                                                    <label id="phone">
+                                                                    Phone Number
+                                                    </label>
+                                                    <input type="number" name="phone_number" id="phone" placeholder="Enter your Phone Number" value="">
+                                                    </br>
+
+                                                    <label id="password">
+                                                                    Password
+                                                    </label>
+                                                    <input type="password" name="password" id="password" placeholder="Enter your Password" value="">
+                                                    </br>
+
+                                                    <label id="confpassword">
+                                                                    Confirm Password
+                                                    </label>
+                                                    <input type="password" name="confirm_password" id="confpassword" placeholder="Confirm your Password" value="">
+                                                    </br>
+
+                                                    <input type="submit" name="register" id="" placeholder="" value="SIGN-IN">
+
+                                        </form>    
+                    
+                    </div>
+         </body>
+   </html>
